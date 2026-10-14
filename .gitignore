@@ -1,0 +1,49 @@
+## --------------------------------------------------
+## .NET / Visual Studio
+## --------------------------------------------------
+bin/
+obj/
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+_ReSharper*/
+*.suo
+*.userprefs
+TestResults/
+*.DotSettings.user
+
+## --------------------------------------------------
+## Node / Frontend
+## --------------------------------------------------
+node_modules/
+frontend/node_modules/
+client/node_modules/
+dist/
+frontend/dist/
+client/dist/
+frontend/dist-ssr/
+client/dist-ssr/
+*.local
+.env.local
+.env.*.local
+*.tsbuildinfo
+
+## --------------------------------------------------
+## Environment & Secrets
+## --------------------------------------------------
+appsettings.Development.json
+!appsettings.Development.json.example
+frontend/.env.local
+!frontend/.env
+!frontend/.env.example
+client/.env.local
+!client/.env
+!client/.env.example
+
+## --------------------------------------------------
+## OS Generated Files
+## --------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
